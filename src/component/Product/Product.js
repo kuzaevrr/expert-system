@@ -1,5 +1,8 @@
 import * as NotebookRepository from "../../repository/NotebookRepository.js";
-const { ipcRenderer} = require('electron');
+const fs = require('fs');
+const path = require('path');
+
+const {ipcRenderer} = require('electron');
 
 // Отправка выбора пользователя в главный процесс
 const pathComponent = '/component';
@@ -17,7 +20,6 @@ ipcRenderer.on('showProductToReceive', (event, data) => {
     const typeScreen = document.getElementById('typeScreen');
     const frequencyScreen = document.getElementById('frequencyScreen');
 
-
     let notebook = NotebookRepository.products().find(item => item.id === data.productId)
 
     if (notebook) {
@@ -33,13 +35,18 @@ ipcRenderer.on('showProductToReceive', (event, data) => {
         resolutionScreen.textContent = `Разрешение экрана: ${notebook.characteristics.resolutionScreen} px`;
         typeScreen.textContent = `Тип экрана: ${notebook.characteristics.typeScreen}`;
         frequencyScreen.textContent = `Частота экрана: ${notebook.characteristics.frequencyScreen} ГЦ`;
+
+        const imageProductId = document.getElementById('imageProductId');
+        let img = document.createElement('img');
+        img.src = `../../image/products/${notebook.id}.jpg`
+        imageProductId.appendChild(img);
     }
 
     const container = document.getElementById('container');
     let button = document.createElement('button');
     button.type = 'button';
     button.textContent = 'Вернуться в начало';
-    button.onclick = function() {
+    button.onclick = function () {
         ipcRenderer.send('backToMain');
     };
     container.appendChild(button);

@@ -4,7 +4,6 @@ class Product {
     id = 0;
     description = "";
     characteristics = new ProductCharacteristic();
-    imageId = 0;
 
     constructor(id, description, characteristic, linkWeb, imageId) {
         this.id = id;
