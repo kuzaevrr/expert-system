@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  background: url("../../image/fon.jpg") repeat-y;
+
+}
+
+.container {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+#question {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#options {
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+#result {
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
