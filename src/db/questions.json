@@ -48,5 +48,19 @@
         "linkProductId": 23
       }
     ]
+  },
+  {
+    "id": 9,
+    "description": "Много файлов храните?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 20
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 21
+      }
+    ]
   }
 ]

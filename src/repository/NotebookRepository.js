@@ -4,43 +4,48 @@ class Product {
     id = 0;
     description = "";
     characteristics = new ProductCharacteristic();
+    linkWeb = "";
+    imageId = 0;
 
-    constructor(id, description, characteristic) {
+    constructor(id, description, characteristic, linkWeb, imageId) {
         this.id = id;
         this.description = description;
         this.characteristics = characteristic;
+        this.linkWeb = linkWeb;
+        this.imageId = imageId;
     }
 }
 
 class ProductCharacteristic {
     model = "";
     cpu = "";
+    countCoreCpu = 0;
+    countThreadCpu = 0;
     ram = 0;
     rom = 0;
     gpu = "";
     sizeScreen = 14.0;
+    resolutionScreen = "";
+    typeScreen = "";
+    frequencyScreen = "";
 
-    constructor(model, cpu, ram, rom, gpu, sizeScreen) {
+    constructor(model, cpu, countCoreCpu, countThreadCpu, ram, rom, gpu, sizeScreen, resolutionScreen, typeScreen, frequencyScreen) {
         this.model = model;
         this.cpu = cpu;
+        this.countCoreCpu = countCoreCpu;
+        this.countThreadCpu = countThreadCpu;
         this.ram = ram;
         this.rom = rom;
         this.gpu = gpu;
         this.sizeScreen = sizeScreen;
+        this.resolutionScreen = resolutionScreen;
+        this.typeScreen = typeScreen;
+        this.frequencyScreen = frequencyScreen;
     }
 }
 
 const products = () => {
     return JsonUtils.getDateJson("products.json");
-
-    // return [
-    //     new Product(23, "Apple Macbook",
-    //         new ProductCharacteristic("Pro 16 2021", "Apple Silicon M1 Max", 32, 1024, "Apple Silicon 32 Unit", 16.1)
-    //     ),
-    //     new Product(24, "Apple Macbook",
-    //         new ProductCharacteristic("Pro 16 2023", "Apple Silicon M2 Max", 64, 2048, "Apple Silicon 38 Unit", 16.1)
-    //     ),
-    // ];
 }
 
 export {products};

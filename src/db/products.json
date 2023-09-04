@@ -5,11 +5,17 @@
     "characteristics": {
       "model": "Pro 16 2021",
       "cpu": "Apple Silicon M1 Max",
+      "countCoreCpu": 10,
+      "countThreadCpu": 10,
       "ram": 32,
       "rom": 1024,
       "gpu": "Apple Silicon 32 Unit",
-      "sizeScreen": 16.1
-    }
+      "sizeScreen": 16.2,
+      "resolutionScreen" : "3456x2234",
+      "typeScreen": "Liquid Retina XDR",
+      "frequencyScreen": "120"
+    },
+    "linkWeb": "https://www.apple.com/ru/macbook-pro-14-and-16/"
   },
   {
     "id": 24,
@@ -17,10 +23,52 @@
     "characteristics": {
       "model": "Pro 16 2023",
       "cpu": "Apple Silicon M2 Max",
+      "countCoreCpu": 12,
+      "countThreadCpu": 12,
       "ram": 64,
       "rom": 2048,
       "gpu": "Apple Silicon 38 Unit",
-      "sizeScreen": 16.1
-    }
+      "sizeScreen": 16.2,
+      "resolutionScreen" : "3456x2234",
+      "typeScreen": "Liquid Retina XDR",
+      "frequencyScreen": "120"
+    },
+    "linkWeb": "https://www.apple.com/ru/macbook-pro-14-and-16/"
+  },
+  {
+    "id": 20,
+    "description": "MSI Modern 14",
+    "characteristics": {
+      "model": "C5M-012RU",
+      "cpu": "AMD Ryzen 5 5625U 2.3ГГц",
+      "countCoreCpu": 6,
+      "countThreadCpu": 12,
+      "ram": 8,
+      "rom": 512,
+      "gpu": "AMD Radeon Vega 7 1800 MHz",
+      "sizeScreen": 14,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    },
+    "linkWeb": "https://www.citilink.ru/product/noutbuk-msi-modern-14-c5m-ryzen-5-5625u-16gb-ssd512gb-14-ips-fhd-w11-g-1848454/properties/"
+  },
+  {
+    "id": 21,
+    "description": "Huawei MateBook D15",
+    "characteristics": {
+      "model": "BoD-WDH9Core",
+      "cpu": "Intel I5 1135G7",
+      "countCoreCpu": 4,
+      "countThreadCpu": 8,
+      "ram": 8,
+      "rom": 256,
+      "gpu": "Intel Iris Xe Graphics",
+      "sizeScreen": 15.6,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    },
+    "linkWeb": "https://market.yandex.ru/product--noutbuk-huawei-matebook-d-15/1757597685?glfilter=14871214%3A15341742_101777648738&glfilter=39935610%3A42962130_101777648738&glfilter=14806501%3A36763152_101777648738&glfilter=6069383%3A19044050_101777648738&glfilter=24892510%3A24892650_101777648738&glfilter=36036031%3A36426849_101777648738&glfilter=37699290%3A39025878_101777648738&glfilter=34812830%3A36106049_101777648738&sku=101777648738&resale_goods=resale_new&cpa=1&uniqueId=1134632"
   }
 ]
