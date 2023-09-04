@@ -34,6 +34,9 @@ const createWindow = () => {
         .then(r => mainWindow.webContents.send('showProductToReceive', data));
   });
 
+  ipcMain.on('backToMain', (event, data) => {
+    mainWindow.loadFile(path.join(__dirname + pathComponent() + "/App", `App.html`)).then(r => console.log("Начальная страница загружена!"));
+  });
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();

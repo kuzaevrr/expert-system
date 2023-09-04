@@ -14,8 +14,7 @@
       "resolutionScreen" : "3456x2234",
       "typeScreen": "Liquid Retina XDR",
       "frequencyScreen": "120"
-    },
-    "linkWeb": "https://www.apple.com/ru/macbook-pro-14-and-16/"
+    }
   },
   {
     "id": 24,
@@ -32,8 +31,7 @@
       "resolutionScreen" : "3456x2234",
       "typeScreen": "Liquid Retina XDR",
       "frequencyScreen": "120"
-    },
-    "linkWeb": "https://www.apple.com/ru/macbook-pro-14-and-16/"
+    }
   },
   {
     "id": 20,
@@ -50,8 +48,7 @@
       "resolutionScreen" : "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
-    },
-    "linkWeb": "https://www.citilink.ru/product/noutbuk-msi-modern-14-c5m-ryzen-5-5625u-16gb-ssd512gb-14-ips-fhd-w11-g-1848454/properties/"
+    }
   },
   {
     "id": 21,
@@ -68,7 +65,193 @@
       "resolutionScreen" : "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
-    },
-    "linkWeb": "https://market.yandex.ru/product--noutbuk-huawei-matebook-d-15/1757597685?glfilter=14871214%3A15341742_101777648738&glfilter=39935610%3A42962130_101777648738&glfilter=14806501%3A36763152_101777648738&glfilter=6069383%3A19044050_101777648738&glfilter=24892510%3A24892650_101777648738&glfilter=36036031%3A36426849_101777648738&glfilter=37699290%3A39025878_101777648738&glfilter=34812830%3A36106049_101777648738&sku=101777648738&resale_goods=resale_new&cpa=1&uniqueId=1134632"
+    }
+  },
+  {
+    "id": 22,
+    "description": "MSI CreatorPro Z17",
+    "characteristics": {
+      "model": "A12UKST-259RU",
+      "cpu": "Intel Core i7 12700H 2.3 ГГц",
+      "countCoreCpu": 14,
+      "countThreadCpu": 20,
+      "ram": 32,
+      "rom": 1024,
+      "gpu": "NVIDIA GeForce RTX A3000",
+      "sizeScreen": 17,
+      "resolutionScreen" : "2560х1440",
+      "typeScreen": "IPS",
+      "frequencyScreen": "165"
+    }
+  },
+  {
+    "id": 19,
+    "description": "Honor MagicBook 14",
+    "characteristics": {
+      "model": "NMH-WFQ9HN",
+      "cpu": "AMD Ryzen 5 5500U 2.1ГГц",
+      "countCoreCpu": 6,
+      "countThreadCpu": 12,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "AMD Radeon Vega 7 1800",
+      "sizeScreen": 14,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 25,
+    "description": "Huawei MateBook D 15",
+    "characteristics": {
+      "model": "BoM-WFP9",
+      "cpu": "AMD Ryzen 7 5700U 1.8 ГГц",
+      "countCoreCpu": 8,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "AMD Radeon Vega 8 1800",
+      "sizeScreen": 15.6,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 26,
+    "description": "MSI Modern 15",
+    "characteristics": {
+      "model": "B7M-217XRU",
+      "cpu": "AMD Ryzen 7 7730U 2 ГГц",
+      "countCoreCpu": 8,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "AMD Radeon Vega 8 2000",
+      "sizeScreen": 15.6,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 35,
+    "description": "ASUS TUF Gaming F15",
+    "characteristics": {
+      "model": "FX506HC-HN004",
+      "cpu": "Intel Core i5 11400H 2.7 ГГц",
+      "countCoreCpu": 8,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "NVIDIA GeForce RTX 2050",
+      "sizeScreen": 15.6,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "144"
+    }
+  },
+  {
+    "id": 32,
+    "description": "ADATA XPG Xenia",
+    "characteristics": {
+      "model": "15TC",
+      "cpu": "Intel Core i5 1135G7 2.4ГГц",
+      "countCoreCpu": 4,
+      "countThreadCpu": 8,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "Intel Iris Xe graphics",
+      "sizeScreen": 15.6,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 33,
+    "description": "ASUS Vivobook Go 15",
+    "characteristics": {
+      "model": "E1504GA-BQ242",
+      "cpu": "Intel Processor N200",
+      "countCoreCpu": 4,
+      "countThreadCpu": 4,
+      "ram": 8,
+      "rom": 256,
+      "gpu": "Intel UHD Graphics",
+      "sizeScreen": 15.6,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 34,
+    "description": "ASUS VivoBook 14",
+    "characteristics": {
+      "model": "F415JA-EB773T",
+      "cpu": "Intel Core i3 1005G1 1.2ГГц",
+      "countCoreCpu": 2,
+      "countThreadCpu": 4,
+      "ram": 8,
+      "rom": 512,
+      "gpu": "Intel UHD Graphics",
+      "sizeScreen": 14,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 36,
+    "description": "ASUS VivoBook 16X",
+    "characteristics": {
+      "model": "M1603QA-MB357",
+      "cpu": "AMD Ryzen 5 5600H 3.3 ГГц",
+      "countCoreCpu": 6,
+      "countThreadCpu": 12,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "AMD Radeon Vega 7 1800",
+      "sizeScreen": 16,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 39,
+    "description": "Maibenben",
+    "characteristics": {
+      "model": "M543",
+      "cpu": "AMD Ryzen 3 4300U",
+      "countCoreCpu": 4,
+      "countThreadCpu": 4,
+      "ram": 8,
+      "rom": 512,
+      "gpu": "AMD Radeon Vega 6 1500",
+      "sizeScreen": 15.6,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 39,
+    "description": "Maibenben",
+    "characteristics": {
+      "model": "M543",
+      "cpu": "AMD Ryzen 3 4300U",
+      "countCoreCpu": 4,
+      "countThreadCpu": 4,
+      "ram": 8,
+      "rom": 512,
+      "gpu": "AMD Radeon Vega 6 1500",
+      "sizeScreen": 15.6,
+      "resolutionScreen" : "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
   }
 ]

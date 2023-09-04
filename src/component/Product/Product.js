@@ -16,24 +16,33 @@ ipcRenderer.on('showProductToReceive', (event, data) => {
     const resolutionScreen = document.getElementById('resolutionScreen');
     const typeScreen = document.getElementById('typeScreen');
     const frequencyScreen = document.getElementById('frequencyScreen');
-    const linkWeb = document.getElementById('linkWeb');
 
 
     let notebook = NotebookRepository.products().find(item => item.id === data.productId)
     // Обрабатываем полученные данные
     console.log('Полученные данные:', notebook);
 
-    productTitle.textContent = `${notebook.description} ${notebook.characteristics.model}`;
-    cpu.textContent = `Процессор: ${notebook.characteristics.cpu}`;
-    countCoreCpu.textContent = `Количество ядер: ${notebook.characteristics.countCoreCpu}`;
-    countThreadCpu.textContent = `Количество потоков: ${notebook.characteristics.countThreadCpu}`;
+    if (notebook) {
+        productTitle.textContent = `${notebook.description} ${notebook.characteristics.model}`;
+        cpu.textContent = `Процессор: ${notebook.characteristics.cpu}`;
+        countCoreCpu.textContent = `Количество ядер: ${notebook.characteristics.countCoreCpu}`;
+        countThreadCpu.textContent = `Количество потоков: ${notebook.characteristics.countThreadCpu}`;
 
-    ram.textContent = `ОЗУ: ${notebook.characteristics.ram} ГБ`;
-    rom.textContent = `ПЗУ: ${notebook.characteristics.rom} ГБ`;
-    gpu.textContent = `Видеокарта: ${notebook.characteristics.gpu}`;
-    sizeScreen.textContent = `Диагональ экрана: ${notebook.characteristics.sizeScreen} дюймов`;
-    resolutionScreen.textContent = `Разрешение экрана: ${notebook.characteristics.resolutionScreen} px`;
-    typeScreen.textContent = `Тип экрана: ${notebook.characteristics.typeScreen}`;
-    frequencyScreen.textContent = `Частота экрана: ${notebook.characteristics.frequencyScreen} ГЦ`;
-    linkWeb.href = `${notebook.linkWeb}`;
+        ram.textContent = `ОЗУ: ${notebook.characteristics.ram} ГБ`;
+        rom.textContent = `ПЗУ: ${notebook.characteristics.rom} ГБ`;
+        gpu.textContent = `Видеокарта: ${notebook.characteristics.gpu}`;
+        sizeScreen.textContent = `Диагональ экрана: ${notebook.characteristics.sizeScreen} дюймов`;
+        resolutionScreen.textContent = `Разрешение экрана: ${notebook.characteristics.resolutionScreen} px`;
+        typeScreen.textContent = `Тип экрана: ${notebook.characteristics.typeScreen}`;
+        frequencyScreen.textContent = `Частота экрана: ${notebook.characteristics.frequencyScreen} ГЦ`;
+    }
+
+    const container = document.getElementById('container');
+    let button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = 'Вернуться в начало';
+    button.onclick = function() {
+        ipcRenderer.send('backToMain');
+    };
+    container.appendChild(button);
 });

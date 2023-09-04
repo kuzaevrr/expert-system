@@ -13,6 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
     answersDOM = document.getElementById("answers");
     // Асинхронная загрузка данных
     dataFilling(1, questionDescriptionDOM, answersDOM);
+
+    let button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = 'Вернуться в начало';
+    button.onclick = function() {
+        ipcRenderer.send('backToMain');
+    };
+    document.getElementById('container').appendChild(button);
 });
 
 
@@ -54,4 +62,8 @@ function clearUl(answers) {
     while (answers.firstChild) {
         answers.removeChild(answers.firstChild);
     }
+}
+
+const backToMain = () => {
+    ipcRenderer.send('backToMain');
 }

@@ -30,8 +30,12 @@
         "linkQuestionId": 8
       },
       {
-        "description": "Программирование",
+        "description": "IT",
         "linkQuestionId": 10
+      },
+      {
+        "description": "Создание 3Д моделей",
+        "linkQuestionId": 22
       }
     ]
   },
@@ -60,6 +64,230 @@
       {
         "description": "Нет",
         "linkProductId": 21
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "description": "Сфера IT?",
+    "answers": [
+      {
+        "description": "Администрирование",
+        "linkProductId": 28
+      },
+      {
+        "description": "Дизайн",
+        "linkProductId": 29
+      },
+      {
+        "description": "Серверная разработка ПО",
+        "linkProductId": 38
+      },
+      {
+        "description": "Разработка интерфеса ПО",
+        "linkProductId": 43
+      },
+      {
+        "description": "Разработка Desktop приложений",
+        "linkQuestionId": 13
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "description": "Какая платформа Desktop приложений?",
+    "answers": [
+      {
+        "description": "Windows",
+        "linkProductId": 27
+      },
+      {
+        "description": "MacOS",
+        "linkProductId": 30
+      },
+      {
+        "description": "Linux",
+        "linkProductId": 31
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "description": "Какая отрасль обучения?",
+    "answers": [
+      {
+        "description": "Гуманитарная",
+        "linkProductId": 19
+      },
+      {
+        "description": "Техническая",
+        "linkQuestionId": 11
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "description": "IT образование?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkQuestionId": 14
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 32
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "description": "Необходима подсветка клавиатуры?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 25
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 26
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "description": "Для каких целей?",
+    "answers": [
+      {
+        "description": "Просмотр фильмов",
+        "linkQuestionId": 5
+      },
+      {
+        "description": "Игры",
+        "linkQuestionId": 6
+      },
+      {
+        "description": "Творческая деятельность",
+        "linkQuestionId": 7
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "description": "Просмотр фильмов в онлайн?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 33
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 34
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "description": "В какой тип игр играете?",
+    "answers": [
+      {
+        "description": "Онлайн",
+        "linkQuestionId": 15
+      },
+      {
+        "description": "Не требовательные",
+        "linkProductId": 39
+      },
+      {
+        "description": "Требовательные",
+        "linkQuestionId": 16
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "description": "Современные онлайн игры?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 35
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 36
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "description": "Вам нужен большой экран ноутбука для игры?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkQuestionId": 17
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 14
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "description": "Необходим экран высокого разрешения?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 37
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 40
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "description": "Какой вид творческой деятельности?",
+    "answers": [
+      {
+        "description": "Фото",
+        "linkProductId": 45
+      },
+      {
+        "description": "Программирование",
+        "linkQuestionId": 18
+      },
+      {
+        "description": "Видео",
+        "linkQuestionId": 12
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "description": "Какое разрешение видео монтируете?",
+    "answers": [
+      {
+        "description": "FHD",
+        "linkProductId": 46
+      },
+      {
+        "description": "4K",
+        "linkProductId": 47
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "description": "Ноутбук долго должен держать батарею?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 41
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 42
       }
     ]
   }
