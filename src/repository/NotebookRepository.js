@@ -1,4 +1,4 @@
-import * as JsonUtils from '../service/JsonUtils'
+import * as JsonUtils from '../service/JsonUtils.js'
 
 class Product {
     id = 0;

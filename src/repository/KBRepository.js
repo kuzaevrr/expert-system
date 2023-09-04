@@ -1,4 +1,4 @@
-import * as JsonUtils from '../service/JsonUtils'
+import * as JsonUtils from '../service/JsonUtils.js'
 
 class Question {
     id = 0;
@@ -27,7 +27,5 @@ class Answer {
 const questions = () => {
     return JsonUtils.getDateJson("questions.json");
 };
-
-
 
 export {questions};

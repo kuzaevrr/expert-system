@@ -1,26 +1,26 @@
 [
   {
     "id": 23,
-    "name": "Apple Macbook",
-    "characteristic": {
+    "description": "Apple Macbook",
+    "characteristics": {
       "model": "Pro 16 2021",
-      "processor": "Apple Silicon M1 Max",
-      "memory": 32,
-      "storage": 1024,
+      "cpu": "Apple Silicon M1 Max",
+      "ram": 32,
+      "rom": 1024,
       "gpu": "Apple Silicon 32 Unit",
-      "screenSize": 16.1
+      "sizeScreen": 16.1
     }
   },
   {
     "id": 24,
-    "name": "Apple Macbook",
-    "characteristic": {
+    "description": "Apple Macbook",
+    "characteristics": {
       "model": "Pro 16 2023",
-      "processor": "Apple Silicon M2 Max",
-      "memory": 64,
-      "storage": 2048,
+      "cpu": "Apple Silicon M2 Max",
+      "ram": 64,
+      "rom": 2048,
       "gpu": "Apple Silicon 38 Unit",
-      "screenSize": 16.1
+      "sizeScreen": 16.1
     }
   }
 ]
