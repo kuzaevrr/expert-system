@@ -35,7 +35,7 @@
       },
       {
         "description": "Создание 3Д моделей",
-        "linkQuestionId": 22
+        "linkProductId": 22
       }
     ]
   },
@@ -227,7 +227,7 @@
       },
       {
         "description": "Нет",
-        "linkProductId": 14
+        "linkProductId": 44
       }
     ]
   },

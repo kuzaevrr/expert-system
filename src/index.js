@@ -23,7 +23,7 @@ const createWindow = () => {
   });
 
   // and load the Product.html of the app.
-  mainWindow.loadFile(path.join(__dirname + pathComponent() + "/App", `App.html`)).then(r => console.log("Начальная страница загружена!"));
+  mainWindow.loadFile(path.join(__dirname + pathComponent() + "/App", `App.html`));
 
   ipcMain.on('showQuestions', () => {
     mainWindow.loadFile(path.join(__dirname + pathComponent() + "/Question", 'Question.html'));
@@ -35,7 +35,7 @@ const createWindow = () => {
   });
 
   ipcMain.on('backToMain', (event, data) => {
-    mainWindow.loadFile(path.join(__dirname + pathComponent() + "/App", `App.html`)).then(r => console.log("Начальная страница загружена!"));
+    mainWindow.loadFile(path.join(__dirname + pathComponent() + "/App", `App.html`));
   });
 
   // Open the DevTools.

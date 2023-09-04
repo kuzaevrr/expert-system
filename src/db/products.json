@@ -11,7 +11,7 @@
       "rom": 1024,
       "gpu": "Apple Silicon 32 Unit",
       "sizeScreen": 16.2,
-      "resolutionScreen" : "3456x2234",
+      "resolutionScreen": "3456x2234",
       "typeScreen": "Liquid Retina XDR",
       "frequencyScreen": "120"
     }
@@ -28,7 +28,7 @@
       "rom": 2048,
       "gpu": "Apple Silicon 38 Unit",
       "sizeScreen": 16.2,
-      "resolutionScreen" : "3456x2234",
+      "resolutionScreen": "3456x2234",
       "typeScreen": "Liquid Retina XDR",
       "frequencyScreen": "120"
     }
@@ -45,7 +45,7 @@
       "rom": 512,
       "gpu": "AMD Radeon Vega 7 1800 MHz",
       "sizeScreen": 14,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -62,7 +62,7 @@
       "rom": 256,
       "gpu": "Intel Iris Xe Graphics",
       "sizeScreen": 15.6,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -79,7 +79,7 @@
       "rom": 1024,
       "gpu": "NVIDIA GeForce RTX A3000",
       "sizeScreen": 17,
-      "resolutionScreen" : "2560х1440",
+      "resolutionScreen": "2560х1440",
       "typeScreen": "IPS",
       "frequencyScreen": "165"
     }
@@ -96,7 +96,7 @@
       "rom": 512,
       "gpu": "AMD Radeon Vega 7 1800",
       "sizeScreen": 14,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -113,7 +113,7 @@
       "rom": 512,
       "gpu": "AMD Radeon Vega 8 1800",
       "sizeScreen": 15.6,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -130,7 +130,7 @@
       "rom": 512,
       "gpu": "AMD Radeon Vega 8 2000",
       "sizeScreen": 15.6,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -147,7 +147,7 @@
       "rom": 512,
       "gpu": "NVIDIA GeForce RTX 2050",
       "sizeScreen": 15.6,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "144"
     }
@@ -164,7 +164,7 @@
       "rom": 512,
       "gpu": "Intel Iris Xe graphics",
       "sizeScreen": 15.6,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -181,7 +181,7 @@
       "rom": 256,
       "gpu": "Intel UHD Graphics",
       "sizeScreen": 15.6,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -198,7 +198,7 @@
       "rom": 512,
       "gpu": "Intel UHD Graphics",
       "sizeScreen": 14,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -215,7 +215,7 @@
       "rom": 512,
       "gpu": "AMD Radeon Vega 7 1800",
       "sizeScreen": 16,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
@@ -232,26 +232,264 @@
       "rom": 512,
       "gpu": "AMD Radeon Vega 6 1500",
       "sizeScreen": 15.6,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "1920х1080",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
     }
   },
   {
-    "id": 39,
-    "description": "Maibenben",
+    "id": 45,
+    "description": "ASUS VivoBook Pro 15 OLED",
     "characteristics": {
-      "model": "M543",
-      "cpu": "AMD Ryzen 3 4300U",
-      "countCoreCpu": 4,
-      "countThreadCpu": 4,
-      "ram": 8,
-      "rom": 512,
-      "gpu": "AMD Radeon Vega 6 1500",
+      "model": "K3500PA-L1080",
+      "cpu": "Intel Core i5-13500H",
+      "countCoreCpu": 12,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 1024,
+      "gpu": "Intel Iris Xe graphics",
       "sizeScreen": 15.6,
-      "resolutionScreen" : "1920х1080",
+      "resolutionScreen": "2880x1620",
+      "typeScreen": "OLED",
+      "frequencyScreen": "120"
+    }
+  },
+  {
+    "id": 44,
+    "description": "Gigabyte G5 KF",
+    "characteristics": {
+      "model": "K3500PA-L1080",
+      "cpu": "Intel Core i5 12500H",
+      "countCoreCpu": 12,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 1024,
+      "gpu": "NVIDIA GeForce RTX 4060",
+      "sizeScreen": 15.6,
+      "resolutionScreen": "1920х1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "144"
+    }
+  },
+  {
+    "id": 40,
+    "description": "ARDOR GAMING NEO",
+    "characteristics": {
+      "model": "G15-I7ND306",
+      "cpu": "Intel Core i7-12650H",
+      "countCoreCpu": 10,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 1024,
+      "gpu": "NVIDIA GeForce RTX 4060",
+      "sizeScreen": 15.6,
+      "resolutionScreen": "1920x1080",
+      "typeScreen": "IPS",
+      "frequencyScreen": "144"
+    }
+  },
+  {
+    "id": 37,
+    "description": "MSI Katana 17",
+    "characteristics": {
+      "model": "B13VGK-471RU",
+      "cpu": "Intel Core i7-12650H",
+      "countCoreCpu": 10,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 1024,
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "sizeScreen": 15.6,
+      "resolutionScreen": "2560x1440",
+      "typeScreen": "IPS",
+      "frequencyScreen": "240"
+    }
+  },
+  {
+    "id": 38,
+    "description": "Macbook Pro",
+    "characteristics": {
+      "model": "16 2023",
+      "cpu": "Apple Silicon M2 Pro",
+      "countCoreCpu": 10,
+      "countThreadCpu": 10,
+      "ram": 32,
+      "rom": 1024,
+      "gpu": "Apple Silicon 16 Unit",
+      "sizeScreen": 16.2,
+      "resolutionScreen": "3456x2234",
+      "typeScreen": "Liquid Retina XDR",
+      "frequencyScreen": "120"
+    }
+  },
+  {
+    "id": 42,
+    "description": "TECNO MegaBook",
+    "characteristics": {
+      "model": "S1",
+      "cpu": "Intel Core i5 1240P 1.7ГГц",
+      "countCoreCpu": 12,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "Intel Iris Xe graphics",
+      "sizeScreen": 15.6,
+      "resolutionScreen": "3200х2000",
+      "typeScreen": "IPS",
+      "frequencyScreen": "120"
+    }
+  },
+  {
+    "id": 41,
+    "description": "Huawei MateBook",
+    "characteristics": {
+      "model": "MorganG-W7611T",
+      "cpu": "Intel Core i7 1360P 2.2 ГГц",
+      "countCoreCpu": 12,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 1024,
+      "gpu": "Intel Iris Xe graphics",
+      "sizeScreen": 14.2,
+      "resolutionScreen": "3120х2080",
+      "typeScreen": "LTPS",
+      "frequencyScreen": "90"
+    }
+  },
+  {
+    "id": 43,
+    "description": "Macbook Air",
+    "characteristics": {
+      "model": "13 2021",
+      "cpu": "Apple Silicon M1",
+      "countCoreCpu": 8,
+      "countThreadCpu": 8,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "Apple Silicon 8 Unit",
+      "sizeScreen": 13.3,
+      "resolutionScreen": "2560x1600",
       "typeScreen": "IPS",
       "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 46,
+    "description": "HUAWEI MateBook",
+    "characteristics": {
+      "model": "14S",
+      "cpu": "Intel Core i7-12700H",
+      "countCoreCpu": 14,
+      "countThreadCpu": 20,
+      "ram": 16,
+      "rom": 1024,
+      "gpu": "Intel Iris Xe graphics",
+      "sizeScreen": 14,
+      "resolutionScreen": "2520x1680",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 47,
+    "description": "ASUS VivoBook 16X OLED",
+    "characteristics": {
+      "model": "K6604JV-MX112W",
+      "cpu": "Intel Core i7 13700HX 2.1ГГц",
+      "countCoreCpu": 16,
+      "countThreadCpu": 24,
+      "ram": 16,
+      "rom": 1024,
+      "gpu": "NVIDIA GeForce RTX 4060",
+      "sizeScreen": 16,
+      "resolutionScreen": "3200х2000",
+      "typeScreen": "OLED",
+      "frequencyScreen": "120"
+    }
+  },
+  {
+    "id": 27,
+    "description": "Lenovo ThinkPad",
+    "characteristics": {
+      "model": "T16 Gen 1",
+      "cpu": "Intel Core i7 1260P",
+      "countCoreCpu": 12,
+      "countThreadCpu": 16,
+      "ram": 32,
+      "rom": 1024,
+      "gpu": "Intel Iris Xe graphics",
+      "sizeScreen": 16,
+      "resolutionScreen": "2560x1600",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 28,
+    "description": "Lenovo ThinkPad",
+    "characteristics": {
+      "model": "X1 Carbon Gen 10",
+      "cpu": "Intel Core i7 1260P",
+      "countCoreCpu": 12,
+      "countThreadCpu": 16,
+      "ram": 16,
+      "rom": 512,
+      "gpu": "Intel Iris Xe graphics",
+      "sizeScreen": 14,
+      "resolutionScreen": "2240x1400",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 29,
+    "description": "Macbook Air",
+    "characteristics": {
+      "model": "13 2022",
+      "cpu": "Apple Silicon M2",
+      "countCoreCpu": 8,
+      "countThreadCpu": 8,
+      "ram": 16,
+      "rom": 1024,
+      "gpu": "Apple Silicon 10 Unit",
+      "sizeScreen": 13.6,
+      "resolutionScreen": "2560x1664",
+      "typeScreen": "IPS",
+      "frequencyScreen": "60"
+    }
+  },
+  {
+    "id": 30,
+    "description": "Macbook Pro",
+    "characteristics": {
+      "model": "16 2021",
+      "cpu": "Apple Silicon M1 Pro",
+      "countCoreCpu": 10,
+      "countThreadCpu": 10,
+      "ram": 32,
+      "rom": 1024,
+      "gpu": "Apple Silicon 16 Unit",
+      "sizeScreen": 16.2,
+      "resolutionScreen": "3456x2234",
+      "typeScreen": "Liquid Retina XDR",
+      "frequencyScreen": "120"
+    }
+  },
+  {
+    "id": 31,
+    "description": "Lenovo ThinkPad",
+    "characteristics": {
+      "model": "X1 Carbon Gen 11",
+      "cpu": "Intel Core i7 1360P",
+      "countCoreCpu": 12,
+      "countThreadCpu": 16,
+      "ram": 132,
+      "rom": 1024,
+      "gpu": "Intel Iris Xe graphics",
+      "sizeScreen": 14,
+      "resolutionScreen": "2880x1800",
+      "typeScreen": "OLED",
+      "frequencyScreen": "120"
     }
   }
 ]

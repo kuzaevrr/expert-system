@@ -19,8 +19,6 @@ ipcRenderer.on('showProductToReceive', (event, data) => {
 
 
     let notebook = NotebookRepository.products().find(item => item.id === data.productId)
-    // Обрабатываем полученные данные
-    console.log('Полученные данные:', notebook);
 
     if (notebook) {
         productTitle.textContent = `${notebook.description} ${notebook.characteristics.model}`;
