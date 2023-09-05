@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "description": "Какой вид деятельности?",
+    "description": "Какой вид деятельности у вас на работе?",
     "answers": [
       {
         "description": "Работа с документами",
@@ -30,18 +30,18 @@
         "linkQuestionId": 8
       },
       {
-        "description": "IT",
+        "description": "IT сфера",
         "linkQuestionId": 10
       },
       {
-        "description": "Создание 3Д моделей",
+        "description": "Раюотаю с 3Д моделей",
         "linkProductId": 22
       }
     ]
   },
   {
     "id": 8,
-    "description": "Над крупными проектами работаете?",
+    "description": "Работаете над крупным проектом??",
     "answers": [
       {
         "description": "Да",
@@ -55,7 +55,7 @@
   },
   {
     "id": 9,
-    "description": "Много файлов храните?",
+    "description": "Много документов храните на ноутбуке?",
     "answers": [
       {
         "description": "Да",
@@ -69,10 +69,10 @@
   },
   {
     "id": 10,
-    "description": "Сфера IT?",
+    "description": "В какой сфере IT Вы работаете?",
     "answers": [
       {
-        "description": "Администрирование",
+        "description": "Администрирование систем",
         "linkProductId": 28
       },
       {
@@ -80,11 +80,11 @@
         "linkProductId": 29
       },
       {
-        "description": "Серверная разработка ПО",
+        "description": "Разработка серверного ПО",
         "linkProductId": 38
       },
       {
-        "description": "Разработка интерфеса ПО",
+        "description": "Разработка интерфеса пользователя",
         "linkProductId": 43
       },
       {
@@ -95,7 +95,7 @@
   },
   {
     "id": 13,
-    "description": "Какая платформа Desktop приложений?",
+    "description": "Для какой ОС, Вы разрабатываете приложения?",
     "answers": [
       {
         "description": "Windows",
@@ -113,21 +113,21 @@
   },
   {
     "id": 3,
-    "description": "Какая отрасль обучения?",
+    "description": "Какое направление обучения?",
     "answers": [
       {
-        "description": "Гуманитарная",
+        "description": "Гуманитарное направление",
         "linkProductId": 19
       },
       {
-        "description": "Техническая",
+        "description": "Техническое направление",
         "linkQuestionId": 11
       }
     ]
   },
   {
     "id": 11,
-    "description": "IT образование?",
+    "description": "Обучение связано с IT?",
     "answers": [
       {
         "description": "Да",
@@ -141,7 +141,7 @@
   },
   {
     "id": 14,
-    "description": "Необходима подсветка клавиатуры?",
+    "description": "Вам нужна подсветка клавиатуры?",
     "answers": [
       {
         "description": "Да",
@@ -155,25 +155,25 @@
   },
   {
     "id": 4,
-    "description": "Для каких целей?",
+    "description": "Для каких домашних целей Вам нужен ноутбук?",
     "answers": [
       {
-        "description": "Просмотр фильмов",
+        "description": "Смотреть фильмов",
         "linkQuestionId": 5
       },
       {
-        "description": "Игры",
+        "description": "Играть в игры",
         "linkQuestionId": 6
       },
       {
-        "description": "Творческая деятельность",
+        "description": "Для творческой деятельности",
         "linkQuestionId": 7
       }
     ]
   },
   {
     "id": 5,
-    "description": "Просмотр фильмов в онлайн?",
+    "description": "Вы смотрите онлайн фильмы?",
     "answers": [
       {
         "description": "Да",
@@ -187,18 +187,18 @@
   },
   {
     "id": 6,
-    "description": "В какой тип игр играете?",
+    "description": "В какие игры вы играете?",
     "answers": [
       {
-        "description": "Онлайн",
+        "description": "Онлайн игры",
         "linkQuestionId": 15
       },
       {
-        "description": "Не требовательные",
+        "description": "Старые игры",
         "linkProductId": 39
       },
       {
-        "description": "Требовательные",
+        "description": "Требовательные игры",
         "linkQuestionId": 16
       }
     ]
@@ -219,7 +219,7 @@
   },
   {
     "id": 16,
-    "description": "Вам нужен большой экран ноутбука для игры?",
+    "description": "Ноутбук должен быть с большим экраном?",
     "answers": [
       {
         "description": "Да",
@@ -233,7 +233,7 @@
   },
   {
     "id": 17,
-    "description": "Необходим экран высокого разрешения?",
+    "description": "Экран нужен высокого разрешения?",
     "answers": [
       {
         "description": "Да",
@@ -247,10 +247,10 @@
   },
   {
     "id": 7,
-    "description": "Какой вид творческой деятельности?",
+    "description": "Для каких творческих целей Вам нужен ноутбук??",
     "answers": [
       {
-        "description": "Фото",
+        "description": "Фото коррекция",
         "linkProductId": 45
       },
       {
@@ -258,14 +258,14 @@
         "linkQuestionId": 18
       },
       {
-        "description": "Видео",
+        "description": "Видео монтаж",
         "linkQuestionId": 12
       }
     ]
   },
   {
     "id": 12,
-    "description": "Какое разрешение видео монтируете?",
+    "description": "В каком разрешении монтируете видео?",
     "answers": [
       {
         "description": "FHD",
@@ -279,7 +279,7 @@
   },
   {
     "id": 18,
-    "description": "Ноутбук долго должен держать батарею?",
+    "description": "Ноутбук должен долго держать заряд аккумулятора??",
     "answers": [
       {
         "description": "Да",
