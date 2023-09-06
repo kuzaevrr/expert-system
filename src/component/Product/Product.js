@@ -4,6 +4,7 @@ const {ipcRenderer} = require('electron');
 
 ipcRenderer.on('showProductToReceive', (event, data) => {
     const productTitle = document.getElementById('productTitle');
+    const description = document.getElementById('description');
     const cpu = document.getElementById('cpu');
     const countCoreCpu = document.getElementById('countCoreCpu');
     const countThreadCpu = document.getElementById('countThreadCpu');
@@ -18,6 +19,7 @@ ipcRenderer.on('showProductToReceive', (event, data) => {
     let notebook = NotebookRepository.products().find(item => item.id === data.productId)
 
     if (notebook) {
+        description.textContent = `Ноутбук ${notebook.characteristics.model}. ${notebook.description}`;
         productTitle.textContent = `${notebook.characteristics.model}`;
         cpu.textContent = `Процессор: ${notebook.characteristics.cpu}`;
         countCoreCpu.textContent = `Количество ядер: ${notebook.characteristics.countCoreCpu}`;
