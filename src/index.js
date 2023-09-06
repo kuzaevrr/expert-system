@@ -1,4 +1,4 @@
-const { app, ipcMain, BrowserWindow, ipcRenderer} = require('electron');
+const { app, ipcMain, BrowserWindow} = require('electron');
 const path = require('path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -13,11 +13,12 @@ const pathComponent = () => {
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 1280,
-    height: 900,
+    width: 1000,
+    height: 1000,
     webPreferences: {
       nodeIntegration: true,
-      contextIsolation: false
+      contextIsolation: false,
+      enableRemoteModule: true,
     },
     autoHideMenuBar: true
   });
@@ -25,8 +26,9 @@ const createWindow = () => {
   // and load the Product.html of the app.
   mainWindow.loadFile(path.join(__dirname + pathComponent() + "/App", `App.html`));
 
-  ipcMain.on('showQuestions', () => {
-    mainWindow.loadFile(path.join(__dirname + pathComponent() + "/Question", 'Question.html'));
+  ipcMain.on('showQuestions', (event, data) => {
+    mainWindow.loadFile(path.join(__dirname + pathComponent() + "/Question", 'Question.html'))
+        .then(r => mainWindow.webContents.send('showQuestionsToReceive', data));
   });
 
   ipcMain.on('showProduct', (event, data) => {

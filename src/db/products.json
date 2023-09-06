@@ -1,9 +1,9 @@
 [
   {
     "id": 23,
-    "description": "Apple Macbook",
+    "description": "",
     "characteristics": {
-      "model": "Pro 16 2021",
+      "model": "Apple Macbook Pro 16 2021",
       "cpu": "Apple Silicon M1 Max",
       "countCoreCpu": 10,
       "countThreadCpu": 10,
@@ -18,9 +18,9 @@
   },
   {
     "id": 24,
-    "description": "Apple Macbook",
+    "description": "",
     "characteristics": {
-      "model": "Pro 16 2023",
+      "model": "Apple Macbook Pro 16 2023",
       "cpu": "Apple Silicon M2 Max",
       "countCoreCpu": 12,
       "countThreadCpu": 12,
@@ -35,9 +35,9 @@
   },
   {
     "id": 20,
-    "description": "MSI Modern 14",
+    "description": "",
     "characteristics": {
-      "model": "C5M-012RU",
+      "model": "MSI Modern 14 C5M-012RU",
       "cpu": "AMD Ryzen 5 5625U 2.3ГГц",
       "countCoreCpu": 6,
       "countThreadCpu": 12,
@@ -52,9 +52,9 @@
   },
   {
     "id": 21,
-    "description": "Huawei MateBook D15",
+    "description": "",
     "characteristics": {
-      "model": "BoD-WDH9Core",
+      "model": "Huawei MateBook D15 BoD-WDH9Core",
       "cpu": "Intel I5 1135G7",
       "countCoreCpu": 4,
       "countThreadCpu": 8,
@@ -69,9 +69,9 @@
   },
   {
     "id": 22,
-    "description": "MSI CreatorPro Z17",
+    "description": "",
     "characteristics": {
-      "model": "A12UKST-259RU",
+      "model": "MSI CreatorPro Z17 A12UKST-259RU",
       "cpu": "Intel Core i7 12700H 2.3 ГГц",
       "countCoreCpu": 14,
       "countThreadCpu": 20,
@@ -86,9 +86,9 @@
   },
   {
     "id": 19,
-    "description": "Honor MagicBook 14",
+    "description": "",
     "characteristics": {
-      "model": "NMH-WFQ9HN",
+      "model": "Honor MagicBook 14 NMH-WFQ9HN",
       "cpu": "AMD Ryzen 5 5500U 2.1ГГц",
       "countCoreCpu": 6,
       "countThreadCpu": 12,
@@ -103,9 +103,9 @@
   },
   {
     "id": 25,
-    "description": "Huawei MateBook D 15",
+    "description": "",
     "characteristics": {
-      "model": "BoM-WFP9",
+      "model": "Huawei MateBook D 15 BoM-WFP9",
       "cpu": "AMD Ryzen 7 5700U 1.8 ГГц",
       "countCoreCpu": 8,
       "countThreadCpu": 16,
@@ -120,9 +120,9 @@
   },
   {
     "id": 26,
-    "description": "MSI Modern 15",
+    "description": "",
     "characteristics": {
-      "model": "B7M-217XRU",
+      "model": "MSI Modern 15 B7M-217XRU",
       "cpu": "AMD Ryzen 7 7730U 2 ГГц",
       "countCoreCpu": 8,
       "countThreadCpu": 16,
@@ -137,9 +137,9 @@
   },
   {
     "id": 35,
-    "description": "ASUS TUF Gaming F15",
+    "description": "",
     "characteristics": {
-      "model": "FX506HC-HN004",
+      "model": "ASUS TUF Gaming F15 FX506HC-HN004",
       "cpu": "Intel Core i5 11400H 2.7 ГГц",
       "countCoreCpu": 8,
       "countThreadCpu": 16,
@@ -154,9 +154,9 @@
   },
   {
     "id": 32,
-    "description": "ADATA XPG Xenia",
+    "description": "",
     "characteristics": {
-      "model": "15TC",
+      "model": "ADATA XPG Xenia 15TC",
       "cpu": "Intel Core i5 1135G7 2.4ГГц",
       "countCoreCpu": 4,
       "countThreadCpu": 8,
@@ -171,9 +171,9 @@
   },
   {
     "id": 33,
-    "description": "ASUS Vivobook Go 15",
+    "description": "",
     "characteristics": {
-      "model": "E1504GA-BQ242",
+      "model": "ASUS Vivobook Go 15 E1504GA-BQ242",
       "cpu": "Intel Processor N200",
       "countCoreCpu": 4,
       "countThreadCpu": 4,
@@ -188,9 +188,9 @@
   },
   {
     "id": 34,
-    "description": "ASUS VivoBook 14",
+    "description": "",
     "characteristics": {
-      "model": "F415JA-EB773T",
+      "model": "ASUS VivoBook 14 F415JA-EB773T",
       "cpu": "Intel Core i3 1005G1 1.2ГГц",
       "countCoreCpu": 2,
       "countThreadCpu": 4,
@@ -205,9 +205,9 @@
   },
   {
     "id": 36,
-    "description": "ASUS VivoBook 16X",
+    "description": "",
     "characteristics": {
-      "model": "M1603QA-MB357",
+      "model": "ASUS VivoBook 16X M1603QA-MB357",
       "cpu": "AMD Ryzen 5 5600H 3.3 ГГц",
       "countCoreCpu": 6,
       "countThreadCpu": 12,
@@ -222,9 +222,9 @@
   },
   {
     "id": 39,
-    "description": "Maibenben",
+    "description": "",
     "characteristics": {
-      "model": "M543",
+      "model": "Maibenben M543",
       "cpu": "AMD Ryzen 3 4300U",
       "countCoreCpu": 4,
       "countThreadCpu": 4,
@@ -239,9 +239,9 @@
   },
   {
     "id": 45,
-    "description": "ASUS VivoBook Pro 15 OLED",
+    "description": "",
     "characteristics": {
-      "model": "K3500PA-L1080",
+      "model": "ASUS VivoBook Pro 15 OLED K3500PA-L1080",
       "cpu": "Intel Core i5-13500H",
       "countCoreCpu": 12,
       "countThreadCpu": 16,
@@ -256,9 +256,9 @@
   },
   {
     "id": 44,
-    "description": "Gigabyte G5 KF",
+    "description": "",
     "characteristics": {
-      "model": "K3500PA-L1080",
+      "model": "Gigabyte G5 KF K3500PA-L1080",
       "cpu": "Intel Core i5 12500H",
       "countCoreCpu": 12,
       "countThreadCpu": 16,
@@ -273,9 +273,9 @@
   },
   {
     "id": 40,
-    "description": "ARDOR GAMING NEO",
+    "description": "",
     "characteristics": {
-      "model": "G15-I7ND306",
+      "model": "ARDOR GAMING NEO G15-I7ND306",
       "cpu": "Intel Core i7-12650H",
       "countCoreCpu": 10,
       "countThreadCpu": 16,
@@ -290,9 +290,9 @@
   },
   {
     "id": 37,
-    "description": "MSI Katana 17",
+    "description": "",
     "characteristics": {
-      "model": "B13VGK-471RU",
+      "model": "MSI Katana 17 B13VGK-471RU",
       "cpu": "Intel Core i7-12650H",
       "countCoreCpu": 10,
       "countThreadCpu": 16,
@@ -307,9 +307,9 @@
   },
   {
     "id": 38,
-    "description": "Macbook Pro",
+    "description": "",
     "characteristics": {
-      "model": "16 2023",
+      "model": "Apple Macbook Pro 16 2023",
       "cpu": "Apple Silicon M2 Pro",
       "countCoreCpu": 10,
       "countThreadCpu": 10,
@@ -324,9 +324,9 @@
   },
   {
     "id": 42,
-    "description": "TECNO MegaBook",
+    "description": "",
     "characteristics": {
-      "model": "S1",
+      "model": "TECNO MegaBook S1",
       "cpu": "Intel Core i5 1240P 1.7ГГц",
       "countCoreCpu": 12,
       "countThreadCpu": 16,
@@ -341,9 +341,9 @@
   },
   {
     "id": 41,
-    "description": "Huawei MateBook",
+    "description": "",
     "characteristics": {
-      "model": "MorganG-W7611T",
+      "model": "Huawei MateBook MorganG-W7611T",
       "cpu": "Intel Core i7 1360P 2.2 ГГц",
       "countCoreCpu": 12,
       "countThreadCpu": 16,
@@ -358,9 +358,9 @@
   },
   {
     "id": 43,
-    "description": "Macbook Air",
+    "description": "",
     "characteristics": {
-      "model": "13 2021",
+      "model": "Apple Macbook Air 13 2021",
       "cpu": "Apple Silicon M1",
       "countCoreCpu": 8,
       "countThreadCpu": 8,
@@ -375,9 +375,9 @@
   },
   {
     "id": 46,
-    "description": "HUAWEI MateBook",
+    "description": "",
     "characteristics": {
-      "model": "14S",
+      "model": "HUAWEI MateBook 14S",
       "cpu": "Intel Core i7-12700H",
       "countCoreCpu": 14,
       "countThreadCpu": 20,
@@ -392,9 +392,9 @@
   },
   {
     "id": 47,
-    "description": "ASUS VivoBook 16X OLED",
+    "description": "",
     "characteristics": {
-      "model": "K6604JV-MX112W",
+      "model": "ASUS VivoBook 16X OLED K6604JV-MX112W",
       "cpu": "Intel Core i7 13700HX 2.1ГГц",
       "countCoreCpu": 16,
       "countThreadCpu": 24,
@@ -409,9 +409,9 @@
   },
   {
     "id": 27,
-    "description": "Lenovo ThinkPad",
+    "description": "",
     "characteristics": {
-      "model": "T16 Gen 1",
+      "model": "Lenovo ThinkPad T16 Gen 1",
       "cpu": "Intel Core i7 1260P",
       "countCoreCpu": 12,
       "countThreadCpu": 16,
@@ -426,9 +426,9 @@
   },
   {
     "id": 28,
-    "description": "Lenovo ThinkPad",
+    "description": "",
     "characteristics": {
-      "model": "X1 Carbon Gen 10",
+      "model": "Lenovo ThinkPad X1 Carbon Gen 10",
       "cpu": "Intel Core i7 1260P",
       "countCoreCpu": 12,
       "countThreadCpu": 16,
@@ -443,9 +443,9 @@
   },
   {
     "id": 29,
-    "description": "Macbook Air",
+    "description": "",
     "characteristics": {
-      "model": "13 2022",
+      "model": "Apple Macbook Air 13 2022",
       "cpu": "Apple Silicon M2",
       "countCoreCpu": 8,
       "countThreadCpu": 8,
@@ -460,9 +460,9 @@
   },
   {
     "id": 30,
-    "description": "Macbook Pro",
+    "description": "",
     "characteristics": {
-      "model": "16 2021",
+      "model": "Apple Macbook Pro 16 2021",
       "cpu": "Apple Silicon M1 Pro",
       "countCoreCpu": 10,
       "countThreadCpu": 10,
@@ -477,9 +477,9 @@
   },
   {
     "id": 31,
-    "description": "Lenovo ThinkPad",
+    "description": "",
     "characteristics": {
-      "model": "X1 Carbon Gen 11",
+      "model": "Lenovo ThinkPad X1 Carbon Gen 11",
       "cpu": "Intel Core i7 1360P",
       "countCoreCpu": 12,
       "countThreadCpu": 16,

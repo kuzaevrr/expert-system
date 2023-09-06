@@ -1,11 +1,6 @@
 import * as NotebookRepository from "../../repository/NotebookRepository.js";
-const fs = require('fs');
-const path = require('path');
-
 const {ipcRenderer} = require('electron');
 
-// Отправка выбора пользователя в главный процесс
-const pathComponent = '/component';
 
 ipcRenderer.on('showProductToReceive', (event, data) => {
     const productTitle = document.getElementById('productTitle');
@@ -42,12 +37,23 @@ ipcRenderer.on('showProductToReceive', (event, data) => {
         imageProductId.appendChild(img);
     }
 
-    const container = document.getElementById('container');
+    const containerDOM = document.getElementById('container');
     let button = document.createElement('button');
     button.type = 'button';
     button.textContent = 'Вернуться в начало';
     button.onclick = function () {
         ipcRenderer.send('backToMain');
     };
-    container.appendChild(button);
+
+    let buttonBackQuestion = document.createElement('button');
+    buttonBackQuestion.id = 'buttonBackQuestion';
+    buttonBackQuestion.type = 'button';
+    buttonBackQuestion.textContent = 'К предыдущему вопросу';
+    buttonBackQuestion.onclick = function () {
+        ipcRenderer.send('showQuestions', {questionId: data.questionId});
+    };
+
+    containerDOM.appendChild(button);
+    containerDOM.appendChild(buttonBackQuestion);
+
 });
