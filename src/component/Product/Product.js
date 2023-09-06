@@ -18,7 +18,7 @@ ipcRenderer.on('showProductToReceive', (event, data) => {
     let notebook = NotebookRepository.products().find(item => item.id === data.productId)
 
     if (notebook) {
-        productTitle.textContent = `${notebook.description} ${notebook.characteristics.model}`;
+        productTitle.textContent = `${notebook.characteristics.model}`;
         cpu.textContent = `Процессор: ${notebook.characteristics.cpu}`;
         countCoreCpu.textContent = `Количество ядер: ${notebook.characteristics.countCoreCpu}`;
         countThreadCpu.textContent = `Количество потоков: ${notebook.characteristics.countThreadCpu}`;
