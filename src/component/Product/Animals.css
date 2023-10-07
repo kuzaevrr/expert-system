@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: url("../../image/fon.jpg") repeat-y;
+  background-size: 100%
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.flex {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px;
+
+}
+
+p {
+  font-size: 18px;
+  align-content: center;
+  margin: 10px;
+}
+
+#question {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#options {
+  margin-bottom: 30px;
+}
+
+/*button {*/
+/*  font-size: 16px;*/
+/*  padding: 10px 20px;*/
+/*  margin: 10px 10px 20px;*/
+/*}*/
+
+button {
+  background: #FF8D50;
+  border: none;
+  color: #FFF;
+  padding: 30px 30px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  height: 400px;
+  width: 533px;
+}
+
+
+.left {
+  order: 1;
+}
+
+.right {
+  order: 2;
+}

@@ -5,7 +5,7 @@ body {
   padding: 0;
 
   background: url("../../image/fon.jpg") repeat-y;
-
+  background-size: 100%
 }
 
 .container {
@@ -25,10 +25,25 @@ h1 {
   margin-bottom: 30px;
 }
 
+/*button {*/
+/*  font-size: 16px;*/
+/*  padding: 10px 20px;*/
+/*  margin: 2px 10px;*/
+/*}*/
+
 button {
-  font-size: 16px;
-  padding: 10px 20px;
-  margin: 2px 10px;
+  background: #FF8D50;
+  border: none;
+  color: #FFF;
+  padding: 15px 30px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 #result {
@@ -37,4 +52,12 @@ button {
 
 .hidden {
   display: none;
+}
+
+.text-style {
+  font-family: "Arial", sans-serif; /* Шрифт текста */
+}
+
+ul {
+  list-style-type: none;
 }

@@ -1,285 +1,279 @@
 [
   {
     "id": 1,
-    "description": "Для чего нужен ноутбук?",
+    "description": "Для чего вам домашнее животное?",
     "answers": [
       {
-        "description": "Для работы",
+        "description": "Для себя, заботы",
+        "linkQuestionId": 23
+      },
+      {
+        "description": "Для сельскохозяйственных нужд",
+        "linkQuestionId": 9
+      },
+      {
+        "description": "Для разведения",
         "linkQuestionId": 2
-      },
-      {
-        "description": "Для учебы",
-        "linkQuestionId": 3
-      },
-      {
-        "description": "Для дома",
-        "linkQuestionId": 4
       }
     ]
   },
   {
     "id": 2,
-    "description": "Какой вид деятельности у вас на работе?",
+    "description": "Животные должны быть в террариуме или вне террариума?",
     "answers": [
       {
-        "description": "Работа с документами",
-        "linkQuestionId": 9
+        "description": "В терраруеме",
+        "linkQuestionId": 3
       },
       {
-        "description": "Создание фото/видео",
-        "linkQuestionId": 8
-      },
-      {
-        "description": "IT сфера",
-        "linkQuestionId": 10
-      },
-      {
-        "description": "Раюотаю с 3Д моделей",
-        "linkProductId": 22
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "description": "Работаете над крупным проектом?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 24
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 23
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "description": "Много документов храните на ноутбуке?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 20
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 21
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "description": "В какой сфере IT Вы работаете?",
-    "answers": [
-      {
-        "description": "Администрирование систем",
-        "linkProductId": 28
-      },
-      {
-        "description": "Дизайн",
-        "linkProductId": 29
-      },
-      {
-        "description": "Разработка серверного ПО",
-        "linkProductId": 38
-      },
-      {
-        "description": "Разработка интерфеса пользователя",
-        "linkProductId": 43
-      },
-      {
-        "description": "Разработка Desktop приложений",
-        "linkQuestionId": 13
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "description": "Для какой ОС, Вы разрабатываете приложения?",
-    "answers": [
-      {
-        "description": "Windows",
-        "linkProductId": 27
-      },
-      {
-        "description": "MacOS",
-        "linkProductId": 30
-      },
-      {
-        "description": "Linux",
-        "linkProductId": 31
+        "description": "Вне террариума",
+        "linkQuestionId": 6
       }
     ]
   },
   {
     "id": 3,
-    "description": "Какое направление обучения?",
-    "answers": [
-      {
-        "description": "Гуманитарное направление",
-        "linkProductId": 19
-      },
-      {
-        "description": "Техническое направление",
-        "linkQuestionId": 11
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "description": "Обучение связано с IT?",
+    "description": "Животные можно брать на руки?",
     "answers": [
       {
         "description": "Да",
-        "linkQuestionId": 14
+        "linkProductId": 4
       },
       {
         "description": "Нет",
-        "linkProductId": 32
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "description": "Вам нужна подсветка клавиатуры?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 25
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 26
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "description": "Для каких домашних целей Вам нужен ноутбук?",
-    "answers": [
-      {
-        "description": "Смотреть фильмов",
-        "linkQuestionId": 5
-      },
-      {
-        "description": "Играть в игры",
-        "linkQuestionId": 6
-      },
-      {
-        "description": "Для творческой деятельности",
-        "linkQuestionId": 7
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "description": "Вы смотрите онлайн фильмы?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 33
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 34
+        "linkProductId": 5
       }
     ]
   },
   {
     "id": 6,
-    "description": "В какие игры вы играете?",
-    "answers": [
-      {
-        "description": "Онлайн игры",
-        "linkQuestionId": 15
-      },
-      {
-        "description": "Старые игры",
-        "linkProductId": 39
-      },
-      {
-        "description": "Требовательные игры",
-        "linkQuestionId": 16
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "description": "Современные онлайн игры?",
+    "description": "Животные пользуются высокоим спросом на рынке?",
     "answers": [
       {
         "description": "Да",
-        "linkProductId": 35
+        "linkProductId": 7
       },
       {
         "description": "Нет",
-        "linkProductId": 36
+        "linkProductId": 8
       }
     ]
   },
   {
-    "id": 16,
-    "description": "Ноутбук должен быть с большим экраном?",
+    "id": 9,
+    "description": "Для какого вида деятельности будет животное?",
     "answers": [
       {
-        "description": "Да",
+        "description": "Для получения продуктов питания",
+        "linkQuestionId": 10
+      },
+      {
+        "description": "Для перевозки людей и грузов",
+        "linkQuestionId": 20
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "description": "Из чего должны состоять получаемые продукты?",
+    "answers": [
+      {
+        "description": "Молоко",
+        "linkQuestionId": 11
+      },
+      {
+        "description": "Мясо",
+        "linkQuestionId": 14
+      },
+      {
+        "description": "Мёд",
         "linkQuestionId": 17
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "description": "Вам нравится коровье молоко?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 12
       },
       {
         "description": "Нет",
-        "linkProductId": 44
+        "linkProductId": 13
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "description": "Вам можно есть свинину?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 15
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 16
       }
     ]
   },
   {
     "id": 17,
-    "description": "Экран нужен высокого разрешения?",
+    "description": "Боитесь ли вы шмелей?",
     "answers": [
       {
         "description": "Да",
-        "linkProductId": 37
+        "linkProductId": 18
       },
       {
         "description": "Нет",
-        "linkProductId": 40
+        "linkProductId": 19
       }
     ]
   },
   {
-    "id": 7,
-    "description": "Для каких творческих целей Вам нужен ноутбук?",
+    "id": 20,
+    "description": "В каком климате вы живете?",
     "answers": [
       {
-        "description": "Фото коррекция",
-        "linkProductId": 45
+        "description": "В холодном",
+        "linkProductId": 21
       },
       {
-        "description": "Программирование",
-        "linkQuestionId": 18
-      },
-      {
-        "description": "Видео монтаж",
-        "linkQuestionId": 12
+        "description": "В теплом",
+        "linkProductId": 22
       }
     ]
   },
   {
-    "id": 12,
-    "description": "В каком разрешении монтируете видео?",
+    "id": 23,
+    "description": "Какое у вас помещение для жилья?",
     "answers": [
       {
-        "description": "FHD",
-        "linkProductId": 46
+        "description": "Квартира",
+        "linkQuestionId": 24
       },
       {
-        "description": "4K",
-        "linkProductId": 47
+        "description": "Свой дом",
+        "linkQuestionId": 46
       }
     ]
   },
   {
-    "id": 18,
-    "description": "Ноутбук должен долго держать заряд аккумулятора?",
+    "id": 24,
+    "description": "Какого размера должно быть домашнее животное?",
+    "answers": [
+      {
+        "description": "Среднее",
+        "linkQuestionId": 25
+      },
+      {
+        "description": "Большое",
+        "linkQuestionId": 28
+      },
+      {
+        "description": "Маленькое",
+        "linkQuestionId": 36
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "description": "Нужно ли выгуливать животное?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 26
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 27
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "description": "Есть ли в вашей квартире дети?",
+    "answers": [
+      {
+        "description": "Квартира",
+        "linkQuestionId": 24
+      },
+      {
+        "description": "Свой дом",
+        "linkQuestionId": 46
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "description": "У детей есть аллергия на шерсть?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 30
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 31
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "description": "Какую длину шерсти вы бы хотели у животного?",
+    "answers": [
+      {
+        "description": "Коротка",
+        "linkProductId": 33
+      },
+      {
+        "description": "Длинная",
+        "linkProductId": 34
+      },
+      {
+        "description": "Лысая",
+        "linkProductId": 35
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "description": "Какой должен быть класс животного?",
+    "answers": [
+      {
+        "description": "Рыбки",
+        "linkQuestionId": 37
+      },
+      {
+        "description": "Птицы",
+        "linkQuestionId": 40
+      },
+      {
+        "description": "Паукообразные",
+        "linkQuestionId": 43
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "description": "Должны ли рыбы постоянно двигаться в аквариуме?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 38
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 39
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "description": "Должны ли птицы говорить?",
     "answers": [
       {
         "description": "Да",
@@ -288,6 +282,90 @@
       {
         "description": "Нет",
         "linkProductId": 42
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "description": "Должны ли паукообразны е уметь плести паутину?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 44
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 45
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "description": "Животное должно охранять ваш дом?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkQuestionId": 47
+      },
+      {
+        "description": "Нет",
+        "linkQuestionId": 50
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "description": "Животное должно быть буйным?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 48
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 49
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "description": "Хотите завести экзотическое домашнее животное?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkQuestionId": 51
+      },
+      {
+        "description": "Нет",
+        "linkQuestionId": 54
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "description": "У вас есть другие животные в доме?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 52
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 53
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "description": "У вас есть время для ухода за домашним животным?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 55
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 56
       }
     ]
   }

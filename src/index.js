@@ -14,7 +14,7 @@ const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 1000,
-    height: 1000,
+    height: 700,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
@@ -23,7 +23,7 @@ const createWindow = () => {
     autoHideMenuBar: true
   });
 
-  // and load the Product.html of the app.
+  // and load the Animals.html of the app.
   mainWindow.loadFile(path.join(__dirname + pathComponent() + "/App", `App.html`));
 
   ipcMain.on('showQuestions', (event, data) => {
@@ -32,7 +32,7 @@ const createWindow = () => {
   });
 
   ipcMain.on('showProduct', (event, data) => {
-    mainWindow.loadFile(path.join(__dirname + pathComponent() + "/Product", 'Product.html'))
+    mainWindow.loadFile(path.join(__dirname + pathComponent() + "/Product", 'Animals.html'))
         .then(r => mainWindow.webContents.send('showProductToReceive', data));
   });
 

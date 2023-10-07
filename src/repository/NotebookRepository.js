@@ -1,49 +1,31 @@
 import * as JsonUtils from '../service/JsonUtils.js'
 
+// {
+//     "id": 15,
+//     "name" : "Курица",
+//     "description": "",
+//     "deeds" : "",
+//     "accommodations" : ""
+// }
+
 class Product {
     id = 0;
+    name = "";
     description = "";
-    characteristics = new ProductCharacteristic();
+    deeds = "";
+    accommodations = "";
 
-    constructor(id, description, characteristic, linkWeb, imageId) {
+    constructor(id, name, description, deeds, accommodations) {
         this.id = id;
+        this.name = name;
         this.description = description;
-        this.characteristics = characteristic;
-        this.linkWeb = linkWeb;
-        this.imageId = imageId;
+        this.deeds = deeds;
+        this.accommodations = accommodations;
     }
 }
 
-class ProductCharacteristic {
-    model = "";
-    cpu = "";
-    countCoreCpu = 0;
-    countThreadCpu = 0;
-    ram = 0;
-    rom = 0;
-    gpu = "";
-    sizeScreen = 14.0;
-    resolutionScreen = "";
-    typeScreen = "";
-    frequencyScreen = "";
-
-    constructor(model, cpu, countCoreCpu, countThreadCpu, ram, rom, gpu, sizeScreen, resolutionScreen, typeScreen, frequencyScreen) {
-        this.model = model;
-        this.cpu = cpu;
-        this.countCoreCpu = countCoreCpu;
-        this.countThreadCpu = countThreadCpu;
-        this.ram = ram;
-        this.rom = rom;
-        this.gpu = gpu;
-        this.sizeScreen = sizeScreen;
-        this.resolutionScreen = resolutionScreen;
-        this.typeScreen = typeScreen;
-        this.frequencyScreen = frequencyScreen;
-    }
+const animals = () => {
+    return JsonUtils.getDateJson("animals.json");
 }
 
-const products = () => {
-    return JsonUtils.getDateJson("products.json");
-}
-
-export {products};
+export {animals};

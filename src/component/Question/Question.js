@@ -98,6 +98,7 @@ function createButtonBackQuestion() {
         let buttonBackQuestion = document.createElement('button');
         buttonBackQuestion.id = 'buttonBackQuestion';
         buttonBackQuestion.type = 'button';
+        buttonBackQuestion.className = 'button-back';
         buttonBackQuestion.textContent = 'К предыдущему вопросу';
         buttonBackQuestion.onclick = function () {
             let backQuestion = KBRepository.questions().find(question => {
