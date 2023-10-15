@@ -103,7 +103,7 @@
     "answers": [
       {
         "description": "Менее 70 см",
-        "linkProductId": 9
+        "linkQuestionId": 9
       },
       {
         "description": "Более 70 см",
@@ -173,7 +173,7 @@
     "answers": [
       {
         "description": "Да",
-        "linkQuestionId": 38
+        "linkProductId": 38
       },
       {
         "description": "Нет",
