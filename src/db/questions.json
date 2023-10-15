@@ -1,131 +1,207 @@
 [
   {
     "id": 1,
-    "description": "Для чего вам домашнее животное?",
+    "description": "Какая собака Вам нужна?",
     "answers": [
       {
-        "description": "Для себя, заботы",
-        "linkQuestionId": 23
+        "description": "Длинношерстная",
+        "linkQuestionId": 6
       },
       {
-        "description": "Для сельскохозяйственных нужд",
-        "linkQuestionId": 9
-      },
-      {
-        "description": "Для разведения",
-        "linkQuestionId": 2
+        "description": "Короткошерстная",
+        "linkQuestionId": 29
       }
     ]
   },
   {
     "id": 2,
-    "description": "Животные должны быть в террариуме или вне террариума?",
+    "description": "Какой рост у собкаи?",
     "answers": [
       {
-        "description": "В терраруеме",
+        "description": "Менее 50 см",
         "linkQuestionId": 3
       },
       {
-        "description": "Вне террариума",
-        "linkQuestionId": 6
+        "description": "Более 50 см",
+        "linkQuestionId": 12
       }
     ]
   },
   {
     "id": 3,
-    "description": "Животные можно брать на руки?",
+    "description": "Какой длины хвост у собаки?",
     "answers": [
       {
-        "description": "Да",
-        "linkProductId": 4
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 5
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "description": "Животные пользуются высокоим спросом на рынке?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 7
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 8
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "description": "Для какого вида деятельности будет животное?",
-    "answers": [
-      {
-        "description": "Для получения продуктов питания",
-        "linkQuestionId": 10
-      },
-      {
-        "description": "Для перевозки людей и грузов",
-        "linkQuestionId": 20
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "description": "Из чего должны состоять получаемые продукты?",
-    "answers": [
-      {
-        "description": "Молоко",
-        "linkQuestionId": 11
-      },
-      {
-        "description": "Мясо",
-        "linkQuestionId": 14
-      },
-      {
-        "description": "Мёд",
-        "linkQuestionId": 17
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "description": "Вам нравится коровье молоко?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 12
-      },
-      {
-        "description": "Нет",
+        "description": "Короткий",
         "linkProductId": 13
+      },
+      {
+        "description": "Длинный",
+        "linkQuestionId": 4
       }
     ]
   },
   {
-    "id": 14,
-    "description": "Вам можно есть свинину?",
+    "id": 4,
+    "description": "Какой длины уши?",
     "answers": [
       {
-        "description": "Да",
-        "linkProductId": 15
+        "description": "Короткие",
+        "linkQuestionId": 5
       },
       {
-        "description": "Нет",
+        "description": "Длинные",
+        "linkProductId": 14
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "description": "Какой длины тело собаки?",
+    "answers": [
+      {
+        "description": "Короткое",
+        "linkQuestionId": 41
+      },
+      {
+        "description": "Длинное",
         "linkProductId": 16
       }
     ]
   },
   {
-    "id": 17,
-    "description": "Боитесь ли вы шмелей?",
+    "id": 6,
+    "description": "Какой рост у собаки?",
+    "answers": [
+      {
+        "description": "Менее 50 см",
+        "linkQuestionId": 8
+      },
+      {
+        "description": "Более 50 см",
+        "linkQuestionId": 7
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "description": "Доброжелательный характер?",
     "answers": [
       {
         "description": "Да",
-        "linkProductId": 18
+        "linkQuestionId": 35
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 20
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "description": "Рост у собаки менее 70 см?",
+    "answers": [
+      {
+        "description": "Менее 70 см",
+        "linkProductId": 9
+      },
+      {
+        "description": "Более 70 см",
+        "linkQuestionId": 10
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "description": "Длинные или короткие уши?",
+    "answers": [
+      {
+        "description": "Длинные",
+        "linkQuestionId": 28
+      },
+      {
+        "description": "Короткие",
+        "linkProductId": 22
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "description": "Окрас рыжий с белыми и отметками?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 25
+      },
+      {
+        "description": "Нет",
+        "linkQuestionId": 11
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "description": "Белоснежный окрас?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 23
+      },
+      {
+        "description": "Нет",
+        "linkQuestionId": 37
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "description": "Глаза могут быть разными?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkQuestionId": 39
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 24
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "description": "Собака должна быть приспособлена к зиме?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkQuestionId": 38
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 40
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "description": "Собака нужна для охоты?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 27
+      },
+      {
+        "description": "Нет",
+        "linkProductId": 21
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "description": "Должен ли быть у собаки цветной язык?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 36
       },
       {
         "description": "Нет",
@@ -134,86 +210,54 @@
     ]
   },
   {
-    "id": 20,
-    "description": "В каком климате вы живете?",
+    "id": 12,
+    "description": "Вес собаки?",
     "answers": [
       {
-        "description": "В холодном",
-        "linkProductId": 21
+        "description": "Более 50 кг",
+        "linkProductId": 18
       },
       {
-        "description": "В теплом",
-        "linkProductId": 22
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "description": "Какое у вас помещение для жилья?",
-    "answers": [
-      {
-        "description": "Квартира",
-        "linkQuestionId": 24
-      },
-      {
-        "description": "Свой дом",
-        "linkQuestionId": 46
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "description": "Какого размера должно быть домашнее животное?",
-    "answers": [
-      {
-        "description": "Среднее",
-        "linkQuestionId": 25
-      },
-      {
-        "description": "Большое",
-        "linkQuestionId": 28
-      },
-      {
-        "description": "Маленькое",
-        "linkQuestionId": 36
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "description": "Нужно ли выгуливать животное?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 26
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 27
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "description": "Есть ли в вашей квартире дети?",
-    "answers": [
-      {
-        "description": "Квартира",
-        "linkQuestionId": 24
-      },
-      {
-        "description": "Свой дом",
-        "linkQuestionId": 46
+        "description": "Менее 50 кг",
+        "linkProductId": 17
       }
     ]
   },
   {
     "id": 29,
-    "description": "У детей есть аллергия на шерсть?",
+    "description": "У Вас есть аллергия?",
     "answers": [
       {
         "description": "Да",
-        "linkProductId": 30
+        "linkQuestionId": 30
+      },
+      {
+        "description": "Нет",
+        "linkQuestionId": 3
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "description": "У вас есть дети?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkProductId": 15
+      },
+      {
+        "description": "Нет",
+        "linkQuestionId": 42
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "description": "Размер имеет значения?",
+    "answers": [
+      {
+        "description": "Да",
+        "linkQuestionId": 34
       },
       {
         "description": "Нет",
@@ -222,150 +266,16 @@
     ]
   },
   {
-    "id": 32,
-    "description": "Какую длину шерсти вы бы хотели у животного?",
+    "id": 34,
+    "description": "Собака должна быть маленького размера?",
     "answers": [
       {
-        "description": "Коротка",
+        "description": "Да",
         "linkProductId": 33
       },
       {
-        "description": "Длинная",
-        "linkProductId": 34
-      },
-      {
-        "description": "Лысая",
-        "linkProductId": 35
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "description": "Какой должен быть класс животного?",
-    "answers": [
-      {
-        "description": "Рыбки",
-        "linkQuestionId": 37
-      },
-      {
-        "description": "Птицы",
-        "linkQuestionId": 40
-      },
-      {
-        "description": "Паукообразные",
-        "linkQuestionId": 43
-      }
-    ]
-  },
-  {
-    "id": 37,
-    "description": "Должны ли рыбы постоянно двигаться в аквариуме?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 38
-      },
-      {
         "description": "Нет",
-        "linkProductId": 39
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "description": "Должны ли птицы говорить?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 41
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 42
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "description": "Должны ли паукообразны е уметь плести паутину?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 44
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 45
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "description": "Животное должно охранять ваш дом?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkQuestionId": 47
-      },
-      {
-        "description": "Нет",
-        "linkQuestionId": 50
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "description": "Животное должно быть буйным?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 48
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 49
-      }
-    ]
-  },
-  {
-    "id": 50,
-    "description": "Хотите завести экзотическое домашнее животное?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkQuestionId": 51
-      },
-      {
-        "description": "Нет",
-        "linkQuestionId": 54
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "description": "У вас есть другие животные в доме?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 52
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 53
-      }
-    ]
-  },
-  {
-    "id": 54,
-    "description": "У вас есть время для ухода за домашним животным?",
-    "answers": [
-      {
-        "description": "Да",
-        "linkProductId": 55
-      },
-      {
-        "description": "Нет",
-        "linkProductId": 56
+        "linkProductId": 32
       }
     ]
   }

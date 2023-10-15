@@ -32,11 +32,11 @@ h1 {
 /*}*/
 
 button {
-  background: #FF8D50;
+  background: #50ebff;
   border: none;
   color: #FFF;
-  padding: 30px 30px;
-  border-radius: 50px;
+  padding: 15px 15px;
+  border-radius: 15px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }

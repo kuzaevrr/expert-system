@@ -3,24 +3,20 @@ import * as JsonUtils from '../service/JsonUtils.js'
 // {
 //     "id": 15,
 //     "name" : "Курица",
-//     "description": "",
-//     "deeds" : "",
-//     "accommodations" : ""
+//     "description": ""
 // }
 
-class Product {
+class Dog {
     id = 0;
     name = "";
     description = "";
-    deeds = "";
-    accommodations = "";
+    nutrition = '';
 
-    constructor(id, name, description, deeds, accommodations) {
+    constructor(id, name, description, nutrition) {
         this.id = id;
         this.name = name;
         this.description = description;
-        this.deeds = deeds;
-        this.accommodations = accommodations;
+        this.nutrition = nutrition;
     }
 }
 

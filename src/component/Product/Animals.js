@@ -14,27 +14,29 @@ const {ipcRenderer} = require('electron');
 ipcRenderer.on('showProductToReceive', (event, data) => {
     const name = document.getElementById('name');
     const description = document.getElementById('description');
-    const deeds = document.getElementById('deeds');
-    const accommodations = document.getElementById('accommodations');
+    const nutrition = document.getElementById('nutrition');
 
+    console.log(data.productId);
     let animal = NotebookRepository.animals().find(item => item.id === data.productId)
-
     if (animal) {
-        name.textContent = `${animal.name}`;
-        description.textContent = `Описание животного: ${animal.description}`;
-        deeds.textContent = `Чем питается: ${animal.deeds}`;
-        accommodations.textContent = `Условия проживания: ${animal.accommodations}`;
+        name.textContent = `Порода: ${animal.name}`;
+        description.textContent = `Описание собаки: ${animal.description}`;
+        if (animal.nutrition) {
+            nutrition.textContent = `Питание собаки: ${animal.nutrition}`;
+        }
 
         const imageProductId = document.getElementById('imageProductId');
         let img = document.createElement('img');
-        img.src = `../../image/animals/${animal.id}.png`
+        img.width = 300;
+        img.src = `../../image/animals/${animal.id}.jpg`
         imageProductId.appendChild(img);
     }
 
     const containerDOM = document.getElementById('container');
     let button = document.createElement('button');
     button.type = 'button';
-    button.textContent = 'Вернуться в начало';
+    button.className = 'button-back';
+    button.innerHTML = '&#128062;';
     button.onclick = function () {
         ipcRenderer.send('backToMain');
     };
@@ -42,7 +44,8 @@ ipcRenderer.on('showProductToReceive', (event, data) => {
     let buttonBackQuestion = document.createElement('button');
     buttonBackQuestion.id = 'buttonBackQuestion';
     buttonBackQuestion.type = 'button';
-    buttonBackQuestion.textContent = 'К предыдущему вопросу';
+    buttonBackQuestion.className = 'button-back';
+    buttonBackQuestion.innerHTML = '&#10094;';
     buttonBackQuestion.onclick = function () {
         ipcRenderer.send('showQuestions', {questionId: data.questionId});
     };

@@ -19,7 +19,8 @@ ipcRenderer.on('showQuestionsToReceive', (event, data) => {
     let buttonMainWindow = document.createElement('button');
     buttonMainWindow.id = 'buttonMainWindow';
     buttonMainWindow.type = 'button';
-    buttonMainWindow.textContent = 'Вернуться в начало';
+    buttonMainWindow.className = 'button-back';
+    buttonMainWindow.innerHTML = '&#128062;';
     buttonMainWindow.onclick = function () {
         ipcRenderer.send('backToMain');
     };
@@ -99,7 +100,7 @@ function createButtonBackQuestion() {
         buttonBackQuestion.id = 'buttonBackQuestion';
         buttonBackQuestion.type = 'button';
         buttonBackQuestion.className = 'button-back';
-        buttonBackQuestion.textContent = 'К предыдущему вопросу';
+        buttonBackQuestion.innerHTML = '&#10094;';
         buttonBackQuestion.onclick = function () {
             let backQuestion = KBRepository.questions().find(question => {
                 if (question.answers.find(answer => answer.linkQuestionId === currentQuestionId)) {
